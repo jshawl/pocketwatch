@@ -1,5 +1,5 @@
 <?php
-        require_once('config.php');
+        require_once('../../shared/config.php');
         var_dump($_REQUEST);
         $request_token = $_GET['request_token'];
         $url = 'https://getpocket.com/v3/oauth/authorize';

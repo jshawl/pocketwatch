@@ -1,5 +1,5 @@
 <?php
-        require_once('config.php');
+        require_once('../../shared/config.php');
         $url = 'https://getpocket.com/v3/oauth/request';
         $data = array(
                 'consumer_key' => $consumer_key, 
