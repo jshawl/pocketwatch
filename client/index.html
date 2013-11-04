@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+jesse's reading list
+
+<div class='reading-list'></div>
+
+</body>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script type="text/javascript" src="js/readinglist.min.js"></script>
+<script type='text/javascript'>
+  $('.reading-list').readingList({
+      access_token: '69391704-b853-ba68-f903-c0e281',
+      limit:10,
+      filter: 'favorite'
+   });
+</script>
+</html>
