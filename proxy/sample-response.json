@@ -21,7 +21,32 @@
       "is_index": "1",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "5"
+      "word_count": "5",
+      "authors": {
+        "11983226": {
+          "item_id": "473612129",
+          "author_id": "11983226",
+          "name": "Ghost",
+          "url": "http:\/\/ghost.org"
+        }
+      },
+      "image": {
+        "item_id": "473612129",
+        "src": "http:\/\/marketplace.ghost.org\/wp-content\/uploads\/2013\/10\/vapor-screenshot-600x420.png",
+        "width": "600",
+        "height": "420"
+      },
+      "images": {
+        "1": {
+          "item_id": "473612129",
+          "image_id": "1",
+          "src": "http:\/\/marketplace.ghost.org\/wp-content\/uploads\/2013\/10\/vapor-screenshot-600x420.png",
+          "width": "600",
+          "height": "420",
+          "credit": "",
+          "caption": ""
+        }
+      }
     },
     "473566060": {
       "item_id": "473566060",
@@ -84,7 +109,59 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "1591"
+      "word_count": "1591",
+      "authors": {
+        "5791375": {
+          "item_id": "473127503",
+          "author_id": "5791375",
+          "name": "Joe Kissell",
+          "url": "http:\/\/www.macworld.com\/author\/Joe-Kissell\/"
+        }
+      },
+      "image": {
+        "item_id": "473127503",
+        "src": "http:\/\/zapt5.staticworld.net\/images\/article\/2013\/08\/gmail-logo-100050086-gallery.png",
+        "width": "0",
+        "height": "0"
+      },
+      "images": {
+        "1": {
+          "item_id": "473127503",
+          "image_id": "1",
+          "src": "http:\/\/zapt5.staticworld.net\/images\/article\/2013\/08\/gmail-logo-100050086-gallery.png",
+          "width": "0",
+          "height": "0",
+          "credit": "",
+          "caption": ""
+        },
+        "2": {
+          "item_id": "473127503",
+          "image_id": "2",
+          "src": "http:\/\/images.techhive.com\/images\/article\/2013\/10\/dns_records-100066778-medium.png",
+          "width": "300",
+          "height": "407",
+          "credit": "",
+          "caption": "If you used a custom domain name, you must change DNS records that used to point at Google so they point at your new provider. EasyDNS automates that entire process."
+        },
+        "3": {
+          "item_id": "473127503",
+          "image_id": "3",
+          "src": "http:\/\/images.techhive.com\/images\/article\/2013\/10\/addotheraccount-100066777-medium.png",
+          "width": "300",
+          "height": "253",
+          "credit": "",
+          "caption": "Add a new account in Mail, choose 'Other', and follow the prompts to set up your new IMAP account."
+        },
+        "4": {
+          "item_id": "473127503",
+          "image_id": "4",
+          "src": "http:\/\/images.techhive.com\/images\/article\/2013\/10\/draganddrop-100066776-small.png",
+          "width": "140",
+          "height": "123",
+          "credit": "",
+          "caption": "Drag a mailbox to your new IMAP account in Mail's sidebar to copy it. But note that you may also have to drag and drop the contents of the old mailbox into the new one to copy all your messages."
+        }
+      }
     },
     "472918188": {
       "item_id": "472918188",
@@ -105,8 +182,34 @@
       "is_index": "0",
       "has_video": "0",
       "has_image": "1",
-      "word_count": "600"
+      "word_count": "600",
+      "image": {
+        "item_id": "472918188",
+        "src": "http:\/\/f.cl.ly\/items\/3J0Z1C0j1m0u2n3q3U3S\/digg.png",
+        "width": "0",
+        "height": "0"
+      },
+      "images": {
+        "1": {
+          "item_id": "472918188",
+          "image_id": "1",
+          "src": "http:\/\/f.cl.ly\/items\/3J0Z1C0j1m0u2n3q3U3S\/digg.png",
+          "width": "0",
+          "height": "0",
+          "credit": "",
+          "caption": ""
+        },
+        "2": {
+          "item_id": "472918188",
+          "image_id": "2",
+          "src": "http:\/\/f.cl.ly\/items\/351e193P2Y1Z3H2S1p0l\/luminositydemo.jpg",
+          "width": "0",
+          "height": "0",
+          "credit": "",
+          "caption": ""
+        }
+      }
     }
   },
-  "since": 1383662904
+  "since": 1383663060
 }
