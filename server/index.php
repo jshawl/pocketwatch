@@ -11,18 +11,18 @@
 
 <h2>Usage:</h2>
 <pre>
-  &lt;script type="text/javascript" src="path/to/readinglist.min.js"></script>
+  &lt;script type="text/javascript" src="path/to/readinglist.min.js"&gt;&lt;/script>
 </pre>
 
 <pre>
-  <script type='text/javascript'>
+  &lt;script type='text/javascript'>
   $('.reading-list').readingList({
       access_token: '<?php echo $_GET['access_token'];?>',
       limit:10,
       filter: 'favorite'
    });
 
-  </script>
+  &lt;/script>
 </pre>
 <?php } ?>
 
