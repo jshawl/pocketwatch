@@ -15,12 +15,14 @@
 </pre>
 
 <pre>
-  var container = document.querySelector('.reading-list');
-  var rdnglst = new ReadingList( container, {
-    // options
-    access_token: '<?php echo $_GET['access_token'];?>',
-    filter: 'favorite'
-  });
+  <script type='text/javascript'>
+  $('.reading-list').readingList({
+      access_token: '<?php echo $_GET['access_token'];?>',
+      limit:10,
+      filter: 'favorite'
+   });
+
+  </script>
 </pre>
 <?php } ?>
 

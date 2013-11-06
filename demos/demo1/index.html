@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+una's reading list
+
+<div class='reading-list'></div>
+
+</body>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script type="text/javascript" src="js/readinglist.min.js"></script>
+<script type='text/javascript'>
+  $('.reading-list').readingList({
+      access_token: 'b342eb2b-35cd-526e-9df7-c3249f',
+      limit: 20,
+      filter: 'favorite'
+   });
+</script>
+</html>
