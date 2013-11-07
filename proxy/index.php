@@ -3,10 +3,12 @@
         require_once('../shared/config.php');
         $url = 'https://getpocket.com/v3/get?count=5';
         $data = array(
-                'consumer_key' => $consumer_key, 
-		'access_token' => $_GET['access_token'],
-		'detailType'=>'complete'
+                'consumer_key' => $consumer_key
         );
+	foreach($_GET as $k=>$v){
+	  $data[$k] = $v;
+	}
+
         $options = array(
                 'http' => array(
                         'method'  => 'POST',
