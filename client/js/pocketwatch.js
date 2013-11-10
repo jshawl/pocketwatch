@@ -45,7 +45,7 @@ function makeTemplate(template, data) {
     url:url,
     dataType :"jsonp",
     jsonp: false,
-    jsonpCallback: "myJsonMethod",
+    jsonpCallback: "pocketWatch",
     success: function(res){
       $.each(res.list, function(index, obj){
         $container.append(makeTemplate(opts.template, obj));
