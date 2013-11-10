@@ -2,7 +2,7 @@
 <html>
 <head></head>
 <body>
-  <h1>ReadingList.js</h1>
+  <h1>PocketWatch.io</h1>
   <p>embed your Pocket queue on your site.</p>
 
 <?php if(!$_GET['access_token']){?>
@@ -11,7 +11,7 @@
 
 <h2>Usage:</h2>
 <pre>
-  &lt;script type="text/javascript" src="path/to/readinglist.min.js"&gt;&lt;/script>
+  &lt;script type="text/javascript" src="path/to/pocketwatch.min.js"&gt;&lt;/script>
 </pre>
 
 <pre>
