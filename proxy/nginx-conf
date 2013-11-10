@@ -1,1 +1,35 @@
-/etc/nginx/sites-enabled/pocketwatch.io
+fastcgi_cache_path /etc/nginx/cache levels=1:2 keys_zone=pocketwatch:100m inactive=60m;
+fastcgi_cache_key "$scheme$request_method$host$request_uri";
+add_header X-Cache $upstream_cache_status;
+
+server {
+  listen 80;
+  server_name pocketwatch.io localhost ;
+  index   index.php index.html index.htm;
+  fastcgi_index index.php;
+  location ~ \.php$ {
+    try_files $uri =404;
+    fastcgi_pass unix:/var/run/php5-fpm.sock;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_index index.php;
+    include fastcgi_params;
+  }
+  root   /var/www/pocketwatch.io/server;
+}
+
+server {
+  listen 80;
+  server_name proxy.pocketwatch.io;
+  index   index.php index.html index.htm;
+  fastcgi_index index.php;
+  location ~ \.php$ {
+    try_files $uri =404;
+    fastcgi_pass unix:/var/run/php5-fpm.sock;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_index index.php;
+    include fastcgi_params;
+    fastcgi_cache pocketwatch;
+    fastcgi_cache_valid 200 60m;
+  }
+  root   /var/www/pocketwatch.io/proxy;
+}
