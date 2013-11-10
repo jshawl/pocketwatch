@@ -1,6 +1,12 @@
 {
   "name":"pocketwatch",
-  "version":"0.1.0",
+  "version":"0.0.1",
+  "description":"The easiest way to embed your Pocket queue on the web",
+  "author":"Jesse Shawl http://jesse.sh/awl/",
+  "repository": {
+    "type":"git",
+    "url":"git://github.com/jshawl/pocketwatch.git"
+  },
   "devDependencies": {
     "grunt":"~0.4.1",
     "grunt-contrib-jshint":"~0.6.3",
