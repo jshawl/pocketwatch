@@ -1,8 +1,8 @@
 (function ( $ ) {
    
-$.fn.readingList = function(options) {
+$.fn.pocketWatch = function(options) {
   $container = $(this);
-  var opts = $.extend( {}, $.fn.readingList.defaults, options ); 
+  var opts = $.extend( {}, $.fn.pocketWatch.defaults, options ); 
   serialize = function(obj) {
       var str = [];
         for(var p in obj)
@@ -55,7 +55,7 @@ function makeTemplate(template, data) {
     return this;
 };
 
-$.fn.readingList.defaults = {
+$.fn.pocketWatch.defaults = {
   count:'5',           // n
   state:'all',         // all || unread || archive
   favorite:1,          // 1 || 0
