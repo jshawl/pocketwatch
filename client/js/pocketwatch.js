@@ -39,7 +39,7 @@ function makeTemplate(template, data) {
       return object;
     };
 
-  url = 'http://proxy.readinglistjs.jshawl.com/?'+serialize(opts);
+  url = 'http://proxy.pocketwatch.io/?'+serialize(opts);
   $.ajax({
     type:'GET',
     url:url,
