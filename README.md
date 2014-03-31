@@ -15,7 +15,7 @@ Include jQuery and the minified pocketwatch.min.js file:
 Generate the embed code, and add it below:
 
     <script type='text/javascript'>
-        $('.reading-list').readingList({
+        $('.pocket-watch').pocketWatch({
             'access_token': 'YOUR_ACCESS_TOKEN',
             'count':10,
             'template':'<h1><a href="{{resolved_url}}">{{resolved_title}}</a></h1>{{excerpt}}'
